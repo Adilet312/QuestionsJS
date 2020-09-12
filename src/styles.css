@@ -42,13 +42,23 @@ p {font-family: Merienda One;}
 i{ font-size: 30px; }
 
 /* Answer */
+.rowUp{
+  display: block;
+}
+.rowUp-hidden{
+  display: none;
+}
+.rowDown-hidden{
+  display: none;
+}
 .rowDown{
+  display: block;
+}
+/*Toggle icon and show answer*/
+.answer-hidden{
   display: none;
 }
-.hiddenAnswer{
-  display: none;
-}
-.answer{
+.answer-show{
   margin-left: 10px;
   display: block;
 }
