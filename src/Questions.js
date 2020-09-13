@@ -19,6 +19,3 @@ document.querySelector('.btn').addEventListener('click',function(event){
   }
 
 },false);
-
-/*  event.target.style.display = "none";
-  document.querySelector('.rowDown').style.display = "block";*/
